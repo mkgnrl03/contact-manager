@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "This is a backend app for the contact manager application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Miko Generale",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "mysql2": "^3.7.0"
+  },
+  "devDependencies": {
+    "boring-name-generator": "^1.0.3",
+    "dotenv": "^16.3.1",
+    "nodemon": "^3.0.2"
+  }
+}
